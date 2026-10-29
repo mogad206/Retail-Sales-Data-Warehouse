@@ -57,3 +57,16 @@ The workbook `Retail_Sales_Source.xlsx` contains sample retail sales, product, c
 
 ### Data Flow
 ![SSIS Data Flow](data-flow.png)
+
+
+
+
+## SQL Analysis
+
+The SQL scripts used to validate the data warehouse
+and analyze product and sales performance.
+
+- [Data Validation](01_Data_Validation.sql)
+- [Product Sales Analysis](02_Product_Analysis.sql)
+- [City and Monthly Sales Analysis](03_Sales_Analysis.sql)
+
