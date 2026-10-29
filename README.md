@@ -75,13 +75,13 @@ and analyze product and sales performance.
 ## SQL Query Results
 
 ### 1. Data Validation
-![Data Validation Results](sql-results/data-validation.png)
+![Data Validation Results](data-validation.png)
 
 ### 2. Product Sales Analysis
-![Product Analysis Results](sql-results/product-analysis.png)
+![Product Analysis Results](product-analysis.png)
 
 ### 3. Sales by City
-![Sales by City Results](sql-results/sales-by-city.png)
+![Sales by City Results](sales-by-city.png)
 
 
 
