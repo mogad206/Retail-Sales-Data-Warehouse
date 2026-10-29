@@ -53,7 +53,7 @@ The workbook `Retail_Sales_Source.xlsx` contains sample retail sales, product, c
 ## ETL Pipeline
 
 ### Control Flow
-![SSIS Control Flow](docs/control-flow.png)
+![SSIS Control Flow](control-flow.png)
 
 ### Data Flow
-![SSIS Data Flow](docs/data-flow.png)
+![SSIS Data Flow](data-flow.png)
