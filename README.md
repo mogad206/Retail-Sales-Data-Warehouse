@@ -76,12 +76,57 @@ and analyze product and sales performance.
 
 ### 1. Data Validation
 ![Data Validation Results](data-validation.png)
+1. Data Validation
+
+This query checks the number of records in the source, dimension, and fact tables. It also checks for sales records with missing product, customer, or store references.
+
+Results:
+
+SalesRaw: 30 rows
+
+DimProduct: 10 rows
+
+DimCustomer: 20 rows
+
+DimStore: 3 rows
+
+FactSales: 30 rows
+
+The validation queries returned no unmatched records, indicating that the checked sales references are consistent with the dimension tables.
 
 ### 2. Product Sales Analysis
 ![Product Analysis Results](product-analysis.png)
 
+2. Product Sales Analysis
+
+This analysis calculates the total quantity sold and total sales revenue for each product, then sorts products by revenue in descending order.
+
+Key Insights:
+
+Laptop 15 inch generated the highest sales revenue at 100,000.
+
+Smartphone 128GB ranked second, generating 58,000.
+
+Wireless Mouse had the highest quantity sold, with 9 units, but generated 4,050 in sales revenue.
+
+
+
 ### 3. Sales by City
 ![Sales by City Results](sales-by-city.png)
+
+3. Sales Analysis by City
+
+This query compares total quantities sold and sales revenue across cities.
+
+Key Insights:
+
+Cairo recorded the highest sales revenue at 144,800.
+
+Alexandria generated 60,850.
+
+Giza generated 60,550.
+
+Cairo contributed the largest share of recorded sales revenue in this dataset.
 
 
 
