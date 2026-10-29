@@ -49,3 +49,12 @@ The workbook `Retail_Sales_Source.xlsx` contains sample retail sales, product, c
 - The source data is synthetic sample data.
 - Connection settings may need to be updated on another computer.
 - Do not commit passwords, secrets, or personal connection settings to the repository.
+
+- ## ETL Pipeline
+
+### Control Flow
+![SSIS Control Flow](docs/control-flow.png)
+
+### Data Flow
+![SSIS Data Flow](docs/data-flow.png)
+
