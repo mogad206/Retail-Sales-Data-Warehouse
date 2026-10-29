@@ -70,3 +70,16 @@ and analyze product and sales performance.
 - [Product Sales Analysis](02_Product_Analysis.sql)
 - [City and Monthly Sales Analysis](03_Sales_Analysis.sql)
 
+
+
+## SQL Query Results
+
+### 1. Data Validation
+![Data Validation Results](sql-results/data-validation.png)
+
+### 2. Product Sales Analysis
+![Product Analysis Results](sql-results/product-analysis.png)
+
+### 3. Sales by City
+![Sales by City Results](sql-results/sales-by-city.png)
+
